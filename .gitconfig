@@ -1,0 +1,8 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = lsiegel23
+	email = 68241709+lsiegel23@users.noreply.github.com
